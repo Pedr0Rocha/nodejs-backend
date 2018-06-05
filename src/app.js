@@ -13,5 +13,6 @@ app.get('/', (red, res) => {
 });
 
 require('./controllers/authController')(app);
+require('./controllers/projectController')(app);
 
 app.listen(port);
