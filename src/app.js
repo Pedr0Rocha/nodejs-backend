@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const port = 3000;
 
 app.get('/', (red, res) => {
-	res.send('Server running at: ' + port);
+  res.send(`Server running at: ${port}`);
 });
 
 require('./controllers/authController')(app);

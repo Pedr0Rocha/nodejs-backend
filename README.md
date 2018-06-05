@@ -1,2 +1,3 @@
 # nodejs-backend
-Node backend + mongo
+Node backend + express + mongo
+
