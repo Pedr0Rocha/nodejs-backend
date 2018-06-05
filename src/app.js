@@ -12,7 +12,6 @@ app.get('/', (red, res) => {
   res.send(`Server running at: ${port}`);
 });
 
-require('./controllers/authController')(app);
-require('./controllers/projectController')(app);
+require('./app/controllers/index')(app);
 
 app.listen(port);
